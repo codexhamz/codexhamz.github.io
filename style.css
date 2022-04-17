@@ -218,14 +218,14 @@ a.active,a:hover{
     background-color: white;
 }
 .contact .atas{
-    margin: 40px 10vw 10vh 10vw;
-    padding: 100px 15vw 0 15vw;
+    margin: 40px 5vw 10vh 3vw;
+    padding: 100px 5vw 0 15vw;
     display: flex;
     align-items: center;
 }
 .contact .tengah{
-    margin: 40px 10vw 10vh 10vw;
-    padding: 70px 15vw 0 15vw;
+    margin: 40px 5vw 10vh 10vw;
+    padding: 100px 5vw 0 15vw;
     display: flex;
     align-items: center;
 }
