@@ -336,7 +336,7 @@ ul{
     background-color: #ffffff;
 }
 
-@media (max-width: 808px){
+@media (max-width: 1090px){
     .head .nav .logo{
         font-size: 32px;
         padding-left: 60px;
