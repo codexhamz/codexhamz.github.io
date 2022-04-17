@@ -336,7 +336,7 @@ ul{
     background-color: #ffffff;
 }
 
-@media (max-width: 1090px){
+@media (max-width: 1080px){
     .head .nav .logo{
         font-size: 32px;
         padding-left: 60px;
@@ -402,8 +402,7 @@ ul{
     .contact .atas{
         height: 5vmin;
         width: 80vmin;
-        margin: 40px 20px 100px 0;
-        padding: 15vw 15vw 10vh 15vw;
+        padding: 10vw 15vw 10vh 15vw;
     }
     .contact .atas img{
         width: 30vmin;
@@ -419,8 +418,7 @@ ul{
     .contact .tengah{
         height: 5vmin;
         width: 80vmin;
-        margin: 40px 20px 100px 0;
-        padding: 15vw 15vw 10vh 15vw;
+        padding: 10vw 15vw 10vh 15vw;
     }
     .contact .tengah img{
         width: 30vmin;
