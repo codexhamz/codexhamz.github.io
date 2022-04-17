@@ -404,6 +404,7 @@ ul{
         padding: 10vw 1vw 10vh 3vw;
         display: flex;
         align-items: center;
+        justify-conten: center;
     }
     .contact .atas img{
         width: 30vmin;
