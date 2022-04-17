@@ -222,6 +222,7 @@ a.active,a:hover{
     padding: 100px 5vw 0 3vw;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .contact .tengah{
     margin: 40px 5vw 10vh 10vw;
