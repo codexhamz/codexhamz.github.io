@@ -398,8 +398,8 @@ ul{
         margin-bottom: 30px;
     }
     .contact .atas{
-        margin: 40px 10vw 10vh 10vw;
-        padding: 10vw 5vw 10vh 5vw;
+        margin: 80px 3vw 10vh 3vw;
+        padding: 10vw 3vw 10vh 3vw;
         display: flex;
         align-items: center;
     }
@@ -415,8 +415,8 @@ ul{
         padding: 0;
     }
     .contact .tengah{
-        margin: 40px 10vw 10vh 10vw;
-        padding: 10vw 5vw 10vh 5vw;
+        margin: 80px 0 50px 0;
+        padding: 10vw 3vw 10vh 3vw;
         display: flex;
         align-items: center;
     }
