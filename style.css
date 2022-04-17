@@ -543,8 +543,8 @@ ul{
         padding: 10vw 1vw 10vh 10vw;
         margin: 80px 1vw 10vh 3vw;
         justify-content: left;
-        flex-wrap: wrap;
         display: flex;
+        align-items: center;
     }
     .contact .tengah img{
         width: 30vmin;
