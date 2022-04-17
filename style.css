@@ -232,7 +232,7 @@ a.active,a:hover{
     justify-content: center;
 }
 .contact .bawah{
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
 }
 .contact .atas img{
@@ -521,8 +521,8 @@ ul{
         margin-bottom: 30px;
     }
     .contact .atas{
-        padding: 10vw 1vw 1vh 1vw;
-        margin: 80px 1vw 1vh 1vw;
+        padding: 10vw 1vw 4vh 5vw;
+        margin: 80px 1vw 4vh 5vw;
         display: flex;
         align-items: center;
     }
