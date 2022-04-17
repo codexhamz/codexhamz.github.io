@@ -405,7 +405,6 @@ ul{
         padding: 10vw 1vw 1vh 1vw;
         display: flex;
         align-items: center;
-        justify-conten: center;
     }
     .contact .atas img{
         width: 30vmin;
@@ -423,7 +422,6 @@ ul{
         padding: 10vw 1vw 1vh 1vw;
         display: flex;
         align-items: center;
-        justify-content: center;
     }
     .contact .tengah img{
         width: 30vmin;
@@ -526,7 +524,6 @@ ul{
         margin: 80px 1vw 1vh 1vw;
         display: flex;
         align-items: center;
-        justify-conten: center;
     }
     .contact .atas img{
         width: 30vmin;
@@ -540,9 +537,8 @@ ul{
         padding: 0;
     }
     .contact .tengah{
-        padding: 10vw 1vw 10vh 10vw;
-        margin: 80px 1vw 10vh 3vw;
-        justify-content: left;
+        padding: 10vw 1vw 5vh 11vw;
+        margin: 80px 1vw 5vh 1vw;
         display: flex;
         align-items: center;
     }
