@@ -400,8 +400,8 @@ ul{
         margin-bottom: 30px;
     }
     .contact .atas{
-        margin: 80px 3vw 10vh 3vw;
-        padding: 10vw 3vw 10vh 3vw;
+        margin: 80px 1vw 10vh 3vw;
+        padding: 10vw 1vw 10vh 3vw;
         display: flex;
         align-items: center;
     }
@@ -521,8 +521,8 @@ ul{
     .contact .atas{
         height: 5vmin;
         width: 80vmin;
-        padding: 10vw 3vw 10vh 3vw;
-        margin: 80px 3vw 10vh 3vw;
+        padding: 10vw 1vw 10vh 3vw;
+        margin: 80px 1vw 10vh 3vw;
     }
     .contact .atas img{
         width: 30vmin;
