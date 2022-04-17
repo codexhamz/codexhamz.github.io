@@ -539,10 +539,11 @@ ul{
         padding: 0;
     }
     .contact .tengah{
-        height: 5vmin;
-        width: 80vmin;
-        padding: 10vw 10vw 10vh 10vw;
-        margin: 80px 3vw 10vh 3vw;
+        padding: 10vw 1vw 10vh 10vw;
+        margin: 80px 1vw 10vh 3vw;
+        justify-content: left;
+        flex-wrap: wrap;
+        display: flex;
     }
     .contact .tengah img{
         width: 30vmin;
