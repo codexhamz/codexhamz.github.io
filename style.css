@@ -515,8 +515,7 @@ ul{
     .contact .atas{
         height: 5vmin;
         width: 80vmin;
-        margin: 40px 20px 100px 0;
-        padding: 15vw 15vw 10vh 15vw;
+        padding: 10vw 10vw 10vh 10vw;
     }
     .contact .atas img{
         width: 30vmin;
@@ -532,8 +531,7 @@ ul{
     .contact .tengah{
         height: 5vmin;
         width: 80vmin;
-        margin: 40px 20px 100px 0;
-        padding: 15vw 15vw 10vh 15vw;
+        padding: 10vw 10vw 10vh 10vw;
     }
     .contact .tengah img{
         width: 30vmin;
