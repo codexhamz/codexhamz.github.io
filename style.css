@@ -1,0 +1,564 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url(images/udb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #232323;
+    font-family: poppins;
+    height: 8vh;
+}
+
+.logo {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo span {
+    color: red;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.me{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+
+.me h1{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.me h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.me h3{
+    color: whitesmoke;
+    font-family: roboto;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.me span{
+    color: red;
+}
+
+.head .me{
+    margin: 0 20px;
+}
+
+.head .me a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ca0000;
+    font-family: 'Akshar', sans-serif;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 0.5rem 1.5rem;
+    transition: .5s;
+}
+.head .me a:hover{
+    background-color: transparent;
+    border: 2px solid #ca0000 ;
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    height: 90vh;
+    background-color: #e1e4e6;
+}
+.judul span{
+    color: red;
+}
+.judul h2{
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+    padding: 50px 0;
+}
+.judul h3{
+    color: black;
+    text-align: center;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+.judul p{
+    color: rgb(33, 37, 41);
+    text-align: justify;
+    margin: 20px 60px;
+}
+
+.service{
+    width: 100%;
+    height: 100vh;
+    background-color: #232323;
+    padding: 80px 0;
+}
+
+.service .judul h2{
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 30px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.card i{
+    font-size: 40px;
+    display: block;
+    margin: 25px 0;
+    color: #f9004d;
+}
+
+.card h5{
+    color: white;
+    font-size: 20px;
+    font-family: 'Akshar', sans-serif;;
+}
+
+.des{
+    font-size: 15px;
+    color: rgb(233, 175, 233);
+    font-family: sans-serif;
+}
+
+.des p{
+    font-size: 15px;
+    padding: 20px 0;
+}
+.des a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ca0000;
+    font-family: 'Akshar', sans-serif;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 0.5rem 1.5rem;
+    transition: .5s;
+}
+
+.des a:hover{
+    background-color: transparent;
+    border: 2px solid #ca0000 ;
+    cursor: pointer;
+}
+
+.contact{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+}
+.contact .atas{
+    margin: 20px 20px 100px;
+    padding: 60px 12vw 0px;
+    display: flex;
+    align-items: center;
+}
+.contact .tengah{
+    margin: 0 150px 10px;
+    padding: 0 0px 20;
+    display: flex;
+    align-items: center;
+}
+.contact .bawah{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact .atas img{
+    width: 30vh;
+    weight: 30vw;
+}
+.contact .tengah img{
+    width: 30vh;
+    weight: 30vw;
+    margin-right: 5vmin;
+}
+.contact .atas h3{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #292929;
+    padding: 40px 100px;
+    font-weight: 400;
+}
+.contact .tengah h3{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #292929;
+    padding: 10px 40px;
+    font-weight: 400;
+}
+
+.contact .bawah p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 25px 25px;
+    padding: 25px 0;
+    font-family: 'Akshar', sans-serif;
+}
+.contact .tengah p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 25px 25px;
+    padding: 25px 0;
+    font-family: 'Akshar', sans-serif;
+}
+.contact .btn-2{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    background-color: #ca0000;
+    font-family: 'Akshar', sans-serif;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 0.5rem 1.5rem;
+    transition: .5s;
+}
+.contact .btn-2:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid #ca0000 ;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #232323;
+    height: 25vh;
+    display: flex;
+    font-family: Poppins;
+}
+.row{
+    justify-content: center;
+    display: flex;
+    margin: 0 8vw 5vw;
+    padding: 5vh 2vw;
+}
+ul{
+    list-style: none;
+}
+
+.row-col{
+    width: 100%;
+    margin: 0 30px;
+    padding: 20px 0;
+}
+.row-col h3{
+    color: white;
+}
+.row-col p{
+    color: rgb(156, 154, 154);
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+.row-col a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    transition: all .5s ease;
+    font-size: 20px;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+}
+.row-col a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media (max-width: 808px){
+    .head .nav .logo{
+        font-size: 32px;
+        padding-left: 60px;
+        width: 100%;
+    }
+    .head nav ul{
+        margin-right: 100px;
+        position: fixed;
+    }
+    .head nav ul li a{
+        font-size: 17px;
+        display: none;
+    }
+    .head nav a{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .judul h1 {
+        font-size: 5vw;
+    }
+    .service{
+        width: 100%;
+        height: 180vh;
+        font-size: 3vw;
+    }
+    .service .box{
+        overflow: hidden;
+        align-items: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .service .box .card{
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 15px black;
+    }
+    .service .box .card h5{
+        font-size: 3vw;
+    }
+    .service .box .card p{
+        font-size: 2vw;
+    }
+    .contact{
+        width: 100%;
+        height: 120vh;
+        overflow: hidden;
+        text-align: center;
+    }
+    .contact h3{
+        margin: 100px 0;
+    }
+    .contact p{
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    .contact .atas{
+        height: 5vmin;
+        width: 80vmin;
+        margin: 0 10vmin;
+        padding: 20vh 0;
+    }
+    .contact .atas img{
+        width: 30vmin;
+        weight: 30vmin;
+    }
+    .contact .atas h3{
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #292929;
+        font-size: 3vmin;
+        margin: 0px 25px 0px;
+        padding: 0;
+    }
+    .contact .tengah{
+        height: 5vmin;
+        width: 80vmin;
+        margin: 0 15vmin 5vmin;
+        padding: 20vh 0;
+    }
+    .contact .tengah img{
+        width: 30vmin;
+        weight: 30vmin;
+    }
+    .contact .tengah h3{
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #292929;
+        font-size: 3vmin;
+        margin: 0px 25px 0px;
+        padding: 0;
+    }
+    .footer{
+        width: 10vh;
+        overflow: hidden;
+        font-size: 2vmin;
+    }
+    .footer .row-col{
+        width: 30%;
+    }
+}
+
+@media (max-width: 576px){
+    .head nav #icon{
+        display: block;
+    }
+    .head nav .logo{
+        font-size: 2rem;
+    }
+    .head nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #252525;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+    .head nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .head a{
+        font-size: 20px;
+    }
+    .about{
+        background: #e1e4e6;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .service{
+        width: 100%;
+        height: 200vh;
+        font-size: 3vw;
+        overflow: hidden;
+    }
+    .service .box{
+        overflow: hidden;
+        align-items: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .service .box .card{
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 15px black;
+    }
+    .service .box .card h5{
+        font-size: 4vw;
+    }
+    .service .box .card p{
+        font-size: 3vw;
+    }
+    .contact{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        text-align: center;
+    }
+    .contact h3{
+        margin: 100px 0;
+    }
+    .contact p{
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    .contact .atas{
+        height: 5vmin;
+        width: 80vmin;
+        margin: 0 10vmin;
+        padding: 100px 0;
+    }
+    .contact .atas img{
+        width: 30vmin;
+        weight: 30vmin;
+    }
+    .contact .atas h3{
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #292929;
+        font-size: 3vmin;
+        margin: 0px 25px 0px;
+        padding: 0;
+    }
+    .contact .tengah{
+        height: 5vmin;
+        width: 80vmin;
+        margin: 0 15vmin 5vmin;
+        padding: 10vh 0 15vh 0;
+    }
+    .contact .tengah img{
+        width: 30vmin;
+        weight: 30vmin;
+    }
+    .contact .tengah h3{
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #292929;
+        font-size: 3vmin;
+        margin: 0px 25px 0px;
+        padding: 0;
+    }
+    .footer{
+        height: 70vh;
+        width: 100%;
+        font-size: 3vmin;
+        display: flex;
+    }
+    .footer .row{
+        overflow: hidden;
+        position: relative;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .footer .row-col{
+        position: relative;
+    }
