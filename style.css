@@ -225,10 +225,11 @@ a.active,a:hover{
     justify-content: center;
 }
 .contact .tengah{
-    margin: 40px 5vw 10vh 10vw;
-    padding: 100px 5vw 0 15vw;
+    margin: 40px 3vw 10vh 2vw;
+    padding: 100px 3vw 0 2vw;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .contact .bawah{
     margin-top: 50px;
