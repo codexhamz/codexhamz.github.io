@@ -520,10 +520,11 @@ ul{
         margin-bottom: 30px;
     }
     .contact .atas{
-        height: 5vmin;
-        width: 80vmin;
         padding: 10vw 1vw 10vh 3vw;
         margin: 80px 1vw 10vh 3vw;
+        display: flex;
+        align-items: center;
+        justify-conten: center;
     }
     .contact .atas img{
         width: 30vmin;
