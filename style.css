@@ -395,9 +395,12 @@ nav #icon{
     .judul h1 {
         font-size: 5vw;
     }
+    .about{
+        width: 100vh;
+    }
     .service{
         width: 100%;
-        height: 260vh;
+        height: 240vh;
         font-size: 3vw;
     }
     .service .box{
@@ -422,7 +425,7 @@ nav #icon{
     }
     .contact{
         width: 100%;
-        height: 180vh;
+        height: 150vh;
         overflow: hidden;
         text-align: center;
     }
@@ -483,7 +486,7 @@ nav #icon{
     }
 }
 
-@media (max-width: 576px){
+@media (max-width: 476px){
     nav #icon{
         display: block;
         cursor: pointer;
