@@ -403,6 +403,7 @@ nav #icon{
         text-align: center;
         overflow: hidden;
         height: 120vh;
+        width: 100%;
     }
     .service{
         width: 100%;
@@ -535,6 +536,7 @@ nav #icon{
         text-align: center;
         overflow: hidden;
         height: 120vh;
+        width: 100%;
     }
 
     .service{
