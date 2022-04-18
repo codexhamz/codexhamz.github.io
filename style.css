@@ -398,7 +398,6 @@ nav #icon{
     .about{
         background: #e1e4e6;
         top: 80px;
-        left: -100%;
         transition: all .5s;
         text-align: center;
         overflow: hidden;
@@ -531,8 +530,6 @@ nav #icon{
     .about{
         background: #e1e4e6;
         top: 80px;
-        left: -100%;
-        transition: all .5s;
         text-align: center;
         overflow: hidden;
         height: 120vh;
