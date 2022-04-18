@@ -396,7 +396,13 @@ nav #icon{
         font-size: 5vw;
     }
     .about{
-        width: 100vh;
+        background: #e1e4e6;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+        overflow: hidden;
+        height: 120vh;
     }
     .service{
         width: 100%;
