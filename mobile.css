@@ -1,0 +1,336 @@
+@media (max-width: 1080px){
+    nav #icon{
+        display: block;
+        cursor: pointer;
+    }
+    .head .nav .logo{
+        font-size: 1.5rem;
+        padding-left: 60px;
+        width: 100%;
+    }
+    .head .navbar ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #232323;
+        top: 80px;
+        left: -100%;
+        transition: all 1s fade;
+        text-align: center;
+        cursor: pointer;
+    }
+    .head .navbar li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .head .navbar a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #FF0000;
+    }
+
+    .head .navbar ul.show{
+        left: 0;
+        top: 50px;
+    }
+
+    .judul h1 {
+        font-size: 5vw;
+    }
+    .service{
+        width: 100%;
+        height: 180vh;
+        font-size: 3vw;
+    }
+    .service .box, {
+        overflow: hidden;
+        align-items: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .service .box .card{
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 15px black;
+    }
+    .service .box .card h5{
+        font-size: 3vw;
+    }
+    .service .box .card p{
+        font-size: 2vw;
+    }
+    .contact{
+        width: 100%;
+        height: 180vh;
+        overflow: hidden;
+        text-align: center;
+    }
+    .contact h3{
+        margin: 100px 0;
+    }
+    .contact p{
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    .contact .atas{
+        margin: 10px 3vw 4vh 5vw;
+        padding: 30vw 3vw 4vh 5w;
+        display: flex;
+        align-items: center;
+    }
+    .contact .tengah{
+        margin: 60px 5vw 3vh 1vw;
+        padding: 10vw 5vw 3vh 1vw;
+        display: flex;
+        align-items: center;
+    }
+    .contact .atas img, .contact .tengah img{
+        width: 30vmin;
+        weight: 30vmin;
+    }
+    .contact .atas h3{
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #292929;
+        font-size: 3vmin;
+        margin: 0px 25px 0px;
+        padding: 0;
+    }
+    
+    .contact .tengah h3{
+        font-family: "IBM Plex Sans", sans-serif;
+        color: #292929;
+        font-size: 3vmin;
+        margin: 0px 25px 0px;
+        padding: 0;
+    }
+    .footer{
+        height: 50vh;
+        width: 100%;
+        font-size: 0.8rem;
+        display: flex;
+        overflow: hidden;
+    }
+    .row{
+        justify-content: center;
+        display: flex;
+        padding: 2vh 2vw;
+        flex-direction: column;
+    }
+    .footer .row-col{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    /* ABOUT  */
+    .head-about .nav .logo{
+        font-size: 1.5rem;
+        padding-left: 60px;
+        width: 100%;
+    }
+    .head-about .navbar ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #232323;
+        top: 80px;
+        left: -100%;
+        transition: all 1s fade;
+        text-align: center;
+        cursor: pointer;
+    }
+    .head-about .navbar li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .head-about .navbar a{
+        font-size: 20px;
+    }
+    .head-about a.active,a:hover{
+        border: none;
+        color: #FF0000;
+    }
+    .head-about .navbar ul.show{
+        left: 0;
+        top: 50px;
+    }
+
+    /* CONTACT */
+    .head-lain .nav .logo{
+        font-size: 1.5rem;
+        padding-left: 60px;
+        width: 100%;
+    }
+    .head-lain .navbar ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #232323;
+        top: 80px;
+        left: -100%;
+        transition: all 1s fade;
+        text-align: center;
+        cursor: pointer;
+    }
+    .head-lain .navbar li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .head-lain .navbar a{
+        font-size: 20px;
+    }
+    .head-lain a.active,a:hover{
+        border: none;
+        color: #FF0000;
+    }
+    .head-lain .navbar ul.show{
+        left: 0;
+        top: 50px;
+    }
+    .pesan {
+        height: 170vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    form{
+        height: 65vh;
+        width: 70%;
+        background-color: white;
+        font-family: Poppins;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        margin: 0;
+    }
+
+    iframe{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px){
+    nav #icon{
+        display: block;
+        cursor: pointer;
+    }
+    #head nav .logo{
+        font-size: 1.5rem;
+    }
+    #head nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #232323;
+        top: 80px;
+        left: -100%;
+        transition: all 1s fade;
+        text-align: center;
+    }
+    #head nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #head nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #FF0000;
+    }
+
+    #head nav ul.show{
+        left: 0;
+        top: 50px;
+    }
+    #about{
+        background: #e1e4e6;
+        top: 80px;
+        transition: all .5s;
+        text-align: center;
+        overflow: hidden;
+        height: 100vh;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    #about h2{
+        font-size: 20px;
+    }
+
+    #service{
+        width: 100%;
+        height: 250vh;
+        font-size: 3vw;
+        overflow: hidden;
+    }
+    #service .box{
+        overflow: hidden;
+        align-items: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #service .box .card{
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 15px black;
+    }
+    #service .box .card h5{
+        font-size: 4vw;
+    }
+    #service .box .card p{
+        font-size: 3vw;
+    }
+    #menu{
+        width: 100%;
+        height: 150vh;
+        overflow: hidden;
+    }
+    #menu .box{
+        overflow: hidden;
+        align-items: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .daftar h3{
+        font-size: 1.2rem;
+    }
+    
+    .footer{
+        height: 50vh;
+        width: 100%;
+        font-size: 0.8rem;
+        display: flex;
+        overflow: hidden;
+    }
+    .row{
+        justify-content: center;
+        display: flex;
+        padding: 2vh 2vw;
+        flex-direction: column;
+    }
+    .footer .row-col{
+        width: 100%;
+        padding: 20px 0;
+    }
+}

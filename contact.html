@@ -1,0 +1,93 @@
+<!doctype html>
+<!-- Website by Malika Harsanto.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>MyWebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=IBM+Plex+Sans:wght@100;500&family=IBM+Plex+Serif:wght@100;700&family=Josefin+Sans&family=Poppins:wght@500&family=Roboto+Mono:wght@700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/06775d1089.js" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
+    <script>
+        const icon = document.getElementById('icon');
+        const navbar = document.getElementById('navbar');
+
+        document.onclick = function(e){
+            if(e.target.id !== 'navbar' && e.target.id !== 'icon'){
+                icon.classList.remove('active');
+                navbar.classList.remove('active');
+            }
+
+        icon.onclick = function(){
+            icon.classList.toggle('active');
+            navbar.classList.toggle('active');
+        }
+        }
+    </script>
+</head>
+<body>
+	<div class="head-lain">
+        <nav class="navbar" id="navbar">
+            <h2 class="logo">Java<span>Comp</span></h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a class="active" href="contact.html">CONTACT</a></li>
+            </ul>
+            <div id="icon">
+                <i class="material-icons">menu</i>
+            </div>
+        </nav>
+	</div>
+	<div class="pesan">
+		<form>
+			<h3> CONTACT US</h3>
+			<input type="text" id="name" placeholder="Your Name" required>
+			<input type="email" id="email" placeholder="Your Email" required>
+			<input type="text" id="phone" placeholder="Phone Number" required>
+			<textarea id="message" rows="4" placeholder="How Can We Help You?"></textarea>
+			<button type="submit">Send Message</button>
+		</form>
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15819.883100841484!2d110.8004452697754!3d-7.578159999999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a16783dbd32eb%3A0xe852ba0aa1842158!2sFakultas%20Ilmu%20Komputer%20-%20Universitas%20Duta%20Bangsa!5e0!3m2!1sid!2sid!4v1650464460237!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</div>
+	<div class="footer" id="contact">
+        <div class="row" data-aos="fade-up" data-aos-duration="800">
+            <div class="row-col">
+                <h3>Alamat</h3>
+                <p>Jl. Bhayangkara No.55, Tipes, Kec. Serengan, Kota Surakarta, Jawa Tengah 57154</p>
+            </div>
+            <div class="row-col">
+                <h3>Email</h3>
+                <p>abcdefghijkl12345@gmail.com</p>
+            </div>
+            <div class="row-col">
+                <h3>Follow Us</h3>
+                <a href="https://instagram.com/xhammz"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/xhammz"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://instagram.com/xhammz"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
