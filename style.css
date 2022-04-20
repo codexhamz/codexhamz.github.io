@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'poppins';;
+    src: url('fonts/Poppins-Regular.ttf');
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+
 
 .head {
     height: 100vh;
@@ -13,6 +19,34 @@
     background-position: center;
 }
 
+.head-product h2{
+    font-family: Poppins;
+}
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 60px;
+}
+
+.head-product nav a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-family: poppins;
+}
+#body .div img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .navbar{
     width: 100%;
     position: fixed;
@@ -20,7 +54,6 @@
 }
 
 nav{
-    
     padding-left: 10%;
     padding-right: 10%;
     background-color: #232323;
@@ -32,6 +65,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.navbar img{
+    width: 40px;
+    height: 40px;
 }
 
 .logo {
@@ -127,8 +164,15 @@ a.active,a:hover{
     width: 100%;
     height: 90vh;
     background-color: #e1e4e6;
-    padding: 0 3vw 0 3vw;
+    padding: 0 5vw 0 5vw;
 }
+.about {
+    font-family: Poppins;
+}
+.aboutjava{
+    font-family: 'Poppins-Light';
+}
+
 .judul span{
     color: red;
 }
@@ -160,6 +204,10 @@ a.active,a:hover{
     display: flex;
     flex-direction: column;
 }
+.card img{
+    width: 130px;
+    height: 120px;
+}
 
 .service .judul h2{
     color: white;
@@ -176,39 +224,33 @@ a.active,a:hover{
     height: 400px;
     width: 300px;
     padding: 20px 30px;
-    background: #191919;
+    background: white;
     border-radius: 30px;
     margin: 20px 10px;
     text-align: center;
 }
 
-.card i{
-    font-size: 40px;
-    display: block;
-    margin: 25px 0;
-    color: #f9004d;
-}
 
 .card h5{
-    color: white;
+    color: black;
     font-size: 20px;
     font-family: 'Akshar', sans-serif;;
 }
 
 .des{
     font-size: 15px;
-    color: rgb(233, 175, 233);
+    color: rgb(216, 15, 15);
     font-family: sans-serif;
 }
 
 .des p{
     font-size: 15px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .des a{
     text-decoration: none;
     font-size: 1rem;
-    color: #fff;
+    color: white;
     background-color: #ca0000;
     font-family: 'Akshar', sans-serif;
     border-radius: 20px;
@@ -221,6 +263,7 @@ a.active,a:hover{
     background-color: transparent;
     border: 2px solid #ca0000 ;
     cursor: pointer;
+    color: black;
 }
 
 .contact{
@@ -307,6 +350,65 @@ a.active,a:hover{
     font-family: Poppins;
     flex-direction: column;
 }
+.pesan{
+    width: 100%;
+    height: 100vh;
+    background: #700909;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin-top: 5vh;
+    width: 100%;
+    background-color: white;
+    height: 70vh;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+form h3{
+    color: #232323;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+form input, form textarea{
+    border: 0;
+    margin: 5px 0;
+    padding: 20px;
+    outline: none;
+    background: #e6e4e4;
+    font-size: 12px;
+}
+form button{
+    padding: 10px;
+    background: red;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+iframe{
+    margin: 5vh 0 0 2vw;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
 .row{
     justify-content: center;
     display: flex;
@@ -345,266 +447,53 @@ ul{
 }
 .row-col a:hover{
     color: #24262b;
-    background-color: red;
+    background-color: white;
 }
 
 nav #icon{
     display: none;
 }
 
-
-@media (max-width: 1080px){
-    nav #icon{
-        display: block;
-        cursor: pointer;
-    }
-    .head .nav .logo{
-        font-size: 1.5rem;
-        padding-left: 60px;
-        width: 100%;
-    }
-    .head .navbar ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background-color: #232323;
-        top: 80px;
-        left: -100%;
-        transition: all 1s fade;
-        text-align: center;
-        cursor: pointer;
-    }
-    .head .navbar li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    .head .navbar a{
-        font-size: 20px;
-    }
-    a.active,a:hover{
-        border: none;
-        color: #FF0000;
-    }
-
-    .head .navbar ul.show{
-        left: 0;
-        top: 50px;
-    }
-
-    .judul h1 {
-        font-size: 5vw;
-    }
-    .about{
-        background: #e1e4e6;
-        top: 80px;
-        transition: all .5s;
-        text-align: center;
-        overflow: hidden;
-        height: 120vh;
-        width: 100%;
-    }
-    .service{
-        width: 100%;
-        height: 240vh;
-        font-size: 3vw;
-    }
-    .service .box{
-        overflow: hidden;
-        align-items: center;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .service .box .card{
-        position: relative;
-        border-radius: 20px;
-        overflow: hidden;
-        box-shadow: 0 10px 15px black;
-    }
-    .service .box .card h5{
-        font-size: 3vw;
-    }
-    .service .box .card p{
-        font-size: 2vw;
-    }
-    .contact{
-        width: 100%;
-        height: 150vh;
-        overflow: hidden;
-        text-align: center;
-    }
-    .contact h3{
-        margin: 100px 0;
-    }
-    .contact p{
-        padding: 20px 0;
-        margin-bottom: 30px;
-    }
-    .contact .atas{
-        margin: 10px 3vw 4vh 5vw;
-        padding: 30vw 3vw 4vh 5w;
-        display: flex;
-        align-items: center;
-    }
-    .contact .tengah{
-        margin: 60px 5vw 3vh 1vw;
-        padding: 10vw 5vw 3vh 1vw;
-        display: flex;
-        align-items: center;
-    }
-    .contact .atas img, .contact .tengah img{
-        width: 30vmin;
-        weight: 30vmin;
-    }
-    .contact .atas h3{
-        font-family: "IBM Plex Sans", sans-serif;
-        color: #292929;
-        font-size: 3vmin;
-        margin: 0px 25px 0px;
-        padding: 0;
-    }
-    
-    .contact .tengah h3{
-        font-family: "IBM Plex Sans", sans-serif;
-        color: #292929;
-        font-size: 3vmin;
-        margin: 0px 25px 0px;
-        padding: 0;
-    }
-    .footer{
-        height: 50vh;
-        width: 100%;
-        font-size: 0.8rem;
-        display: flex;
-        overflow: hidden;
-    }
-    .row{
-        justify-content: center;
-        display: flex;
-        padding: 2vh 2vw;
-        flex-direction: column;
-    }
-    .footer .row-col{
-        width: 100%;
-        padding: 20px 0;
-    }
+.menu {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    height: 50vh;
 }
 
-@media (max-width: 476px){
-    nav #icon{
-        display: block;
-        cursor: pointer;
-    }
-    .head nav .logo{
-        font-size: 1.5rem;
-    }
-    .head nav ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #232323;
-        top: 80px;
-        left: -100%;
-        transition: all 1s fade;
-        text-align: center;
-    }
-    .head nav li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    .head nav a{
-        font-size: 20px;
-    }
-    a.active,a:hover{
-        border: none;
-        color: #FF0000;
-    }
+.menu img{
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+    position: center;
+}
 
-    .head nav ul.show{
-        left: 0;
-        top: 50px;
-    }
-    .about{
-        background: #e1e4e6;
-        top: 80px;
-        text-align: center;
-        overflow: hidden;
-        height: 120vh;
-        width: 100%;
-    }
+.daftar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10vh;
+}
 
-    .service{
-        width: 100%;
-        height: 260vh;
-        font-size: 3vw;
-        overflow: hidden;
-    }
-    .service .box{
-        overflow: hidden;
-        align-items: center;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .service .box .card{
-        position: relative;
-        border-radius: 20px;
-        overflow: hidden;
-        box-shadow: 0 10px 15px black;
-    }
-    .service .box .card h5{
-        font-size: 4vw;
-    }
-    .service .box .card p{
-        font-size: 3vw;
-    }
-    .contact{
-        width: 100%;
-        height: 150vh;
-        overflow: hidden;
-        text-align: center;
-    }
-    .contact h3{
-        margin: 100px 0;
-    }
-    .contact p{
-        padding: 20px 0;
-        margin-bottom: 30px;
-    }
-    .contact .atas, .tengah{
-        margin: 60px 4vw 5vh 4vw;
-        padding: 10vw 4vw 5vh 4vw;
-        display: flex;
-        align-items: center;
-    }
+.menu li{
+    display: inline-block;
+    margin: 10px 5vw;
+    line-height: 60px;
 
-    .contact .atas img, .contact .tengah img{
-        width: 30vmin;
-        weight: 30vmin;
-    }
-    .contact .atas h3{
-        font-family: "IBM Plex Sans", sans-serif;
-        color: #292929;
-        font-size: 3vmin;
-        margin: 0px 25px 0px;
-        padding: 0;
-    }
-    
-    .footer{
-        height: 50vh;
-        width: 100%;
-        font-size: 0.6rem;
-        display: flex;
-        overflow: hidden;
-    }
-    .row{
-        display: flex;
-        padding: 1vh 1vw;
-    }
-    .footer .row-col{
-        width: 100%;
-    }
+}
+
+.menu a{
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.menu h3{
+    font-size: 30px;
+    font-family: poppins;
+}
+
+
