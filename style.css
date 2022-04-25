@@ -128,7 +128,7 @@ a.active,a:hover{
 }
 
 .me h3{
-    color: whitesmoke;
+    color: white;
     font-family: roboto;
     font-size: 20px;
     letter-spacing: 5px;
@@ -156,7 +156,7 @@ a.active,a:hover{
 }
 .head .me a:hover{
     background-color: transparent;
-    border: 2px solid #ca0000 ;
+    border: 2px solid #ca0000;
     cursor: pointer;
 }
 
@@ -184,7 +184,7 @@ a.active,a:hover{
     padding: 50px 0;
 }
 .judul h3{
-    color: black;
+    color: rgb(65, 64, 64);
     text-align: center;
     margin: 10px 0;
     font-family: sans-serif;
@@ -495,5 +495,52 @@ nav #icon{
     font-size: 30px;
     font-family: poppins;
 }
+#body-product .laptop {
+    height: 500vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#body-product {
+    height: 500vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#body-product ul {
+    width: 100%;
+    background-color: white;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 250px 20px;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30vh;
+    padding: 0 10vw 0;
 
+}
+#body-product li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#body-product h1{
+    font-size: 12px;
+}
+#body-product p{
+    font-size: 12px;
+}
+#body-product img{
+    width: 120px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
